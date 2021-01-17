@@ -1,0 +1,56 @@
+.preview__wrapper {
+    background-image: url(../img/FEND-Coffee-latte-art-3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    height: 500px;
+    position: relative;
+
+
+  }
+
+  
+.preview__wrapper--title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 193px;
+  }
+  
+  .preview__wrapper--body {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .preview__wrapper--button {
+      padding: 15px 10px;
+      position: absolute;
+      text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 60px;
+    background: #1a1a1a;
+    border: 2px solid #1a1a1a;
+    width: 163px;
+    height: 48px;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 auto;
+    text-decoration: none;
+  }

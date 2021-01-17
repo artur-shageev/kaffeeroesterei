@@ -1,0 +1,36 @@
+
+.container {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    min-height: 55px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu {
+    padding-right: 25.5px;
+    display: flex;
+    display: none;
+    list-style: none;
+  }
+  .logo {
+     margin-left: 24px;
+     margin-top: 10px;
+  }
+
+  .header__burger{
+   margin-right: 25.5px;
+    margin-top: 21px;
+
+  }
+  
+  nav li a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+  }

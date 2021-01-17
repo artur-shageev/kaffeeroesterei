@@ -1,7 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 @import "variables";
 @import "base";
-@import "components/hero";
+
 
 :root {
-  --div-color: red;
+  
 }
+
+// main
+@import './components/main/about.scss';
+@import './components/main/preview.scss';
+@import './components/main/products.scss';
+
+// header
+@import './components/header.scss';
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  min-height: 100vh;
+  width: 376px;
+  // min-width: 376px;
+  overflow: hidden;
+  position: relative;
+}
+
+
+
+/* Block about */
+
