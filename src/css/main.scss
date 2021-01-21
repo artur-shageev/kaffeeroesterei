@@ -30,16 +30,26 @@ body {
   margin: 0;
   padding: 0;
 }
+a{
+  text-decoration: none;
+}
 
 .wrapper {
   min-height: 100vh;
-  width: 376px;
-  // min-width: 376px;
+  margin: 0 auto;
+  /* width: 376px; */
+  min-width: 376px;
   overflow: hidden;
   position: relative;
 }
 
+@media (min-width: 1200px) { 
+.wrapper {
 
+  max-width: 1440px;
+}
+
+ }
 
 /* Block about */
 

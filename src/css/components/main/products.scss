@@ -1,6 +1,6 @@
 .products__wrapper {
 
-    height: 910px;
+    max-height: 910px;
     background-color: #1a1a1a;
     position: relative;
 }
@@ -62,21 +62,25 @@ padding-bottom: 40px;
 }
 
 .products__button {
+   
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 15px 10px;
-    text-align: center;
-    background: #1a1a1a;
-    border: 3px solid #FFFFFF;
-    border-radius: 5px;
-    width: 163px;
-    height: 48px;
-    color: white;
-    font-size: 14px;
-    text-decoration: none;
-    margin: 0 auto;
-    margin-top: 40px;
-   
 
+    &--item {
+        
+        padding: 15px 10px;
+        text-align: center;
+        background: #1a1a1a;
+        border: 3px solid #FFFFFF;
+        border-radius: 5px;
+        width: 163px;
+        height: 48px;
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
 }
