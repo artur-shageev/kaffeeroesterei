@@ -2,11 +2,15 @@
   height: 332px;
   position: relative;
   margin: 0 auto;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/FEND-Coffee-bags-2.png);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/FEND-Coffee-bags-2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
 }
 
 .herkunft__title {
@@ -15,21 +19,21 @@
   line-height: 37px;
   color: #ffffff;
   display: flex;
-    justify-content: center;
-    padding-top: 87px;
-    padding-bottom: 20px;
+  justify-content: center;
+  padding-top: 87px;
+  padding-bottom: 20px;
 }
 
 .herkunft__about {
-    width: 241px;
-    height: 68px;
+  width: 241px;
+  height: 68px;
   font-size: 14px;
   line-height: 18px;
   color: #ffffff;
   display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .herkunft__link {
@@ -38,6 +42,32 @@
   color: white;
   text-decoration: none;
   display: flex;
-    justify-content: center;
-    padding-top: 20px;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+@media (min-width: 1200px) {
+  .herkunft__wrapper {
+    min-height: 524px;
+  }
+
+  .herkunft__title {
+    padding-top: 145px;
+    padding-bottom: 0px;
+    font-size: 42px;
+    line-height: 49px;
+  }
+
+  .herkunft__about {
+    width: 306px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 35px;
+    margin-top: 35px;
+  }
+  .herkunft__link {
+    padding-top: 35px;
+    font-size: 18px;
+    line-height: 24px;
+  }
 }
