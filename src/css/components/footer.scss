@@ -1,0 +1,49 @@
+.footer {
+  background-color: #1a1a1a;
+  padding: 60px 25px 50px 25px;
+  color: #ffffff;
+
+  &__logo {
+    &--img {
+      width: 35px;
+      height: 35px;
+    }
+    &--brand {
+      padding-top: 15px;
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 28px;
+    }
+    &--text {
+      font-size: 18px;
+      line-height: 21px;
+    }
+  }
+
+  &__contact {
+    display: flex;
+    font-size: 14px;
+    padding: 34px 0 34px 0;
+
+    & * {
+      min-width: 50%;
+      line-height: 18px;
+    }
+  }
+  &__links {
+    display: flex;
+    font-size: 14px;
+    line-height: 18px;
+    & :first-child {
+      padding-right: 20px;
+    }
+
+    &--item {
+      min-width: 50%;
+      line-height: 18px;
+      * {
+        line-height: 18px;
+      }
+    }
+  }
+}
