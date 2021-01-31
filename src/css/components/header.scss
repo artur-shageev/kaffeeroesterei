@@ -37,6 +37,69 @@ nav li a {
   display: none;
 }
 
+.menu {
+  &__wrapper {
+    background: black;
+    color: white;
+    display: flex;
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  &__close {
+    margin: 19.5px 26px;
+    position: absolute;
+    right: 0;
+    height: 28px;
+    width: 28px;
+    // transform: translateX(-50%);
+
+    &:before,
+    &:after {
+      content: "";
+      width: 3px;
+      height: 100%;
+      position: absolute;
+      right: 0;
+      left: 0;
+      // bottom: 0;
+      background-color: white;
+      color: white;
+      // transform: translateX(-50%);
+    }
+    &::after {
+      transform: rotate(45deg);
+    }
+    &::before {
+      transform: rotate(135deg);
+    }
+  }
+
+  &__links {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: ;
+
+    &--item {
+      text-decoration: none;
+      color: white;
+      font-weight: 900;
+      font-size: 32px;
+      line-height: 37px;
+      margin-bottom: 24px;
+      margin-left: 60px;
+    }
+  }
+}
+
 @media (min-width: 1000px) {
   .logo {
     margin-left: 103px;
@@ -64,6 +127,5 @@ nav li a {
       height: 1px;
       background-color: #ffffff;
     }
-
   }
 }

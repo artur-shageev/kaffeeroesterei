@@ -1,29 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap");
 
 @import "variables";
 @import "base";
-
 
 :root {
   --color-main: #357438;
 }
 
 // main
-@import './components/main/about.scss';
-@import './components/main/preview.scss';
-@import './components/main/products.scss';
-@import './components/main/herkunft.scss';
-@import './components/main/features.scss';
-@import './components/main/map.scss';
+@import "./components/main/about.scss";
+@import "./components/main/preview.scss";
+@import "./components/main/products.scss";
+@import "./components/main/herkunft.scss";
+@import "./components/main/features.scss";
+@import "./components/main/map.scss";
+
+//cafe
+
+@import "./components/cafe/preview.scss";
+@import "./components/cafe/about.scss";
+@import "./components/cafe/gallery.scss";
 
 // header
-@import './components/header.scss';
+@import "./components/header.scss";
 
 // footer
 
-@import './components/footer.scss';
-
-
+@import "./components/footer.scss";
 
 * {
   box-sizing: border-box;
@@ -34,7 +37,7 @@ body {
   margin: 0;
   padding: 0;
 }
-a{
+a {
   text-decoration: none;
 }
 
@@ -47,13 +50,10 @@ a{
   position: relative;
 }
 
-@media (min-width: 1200px) { 
-.wrapper {
-
-  max-width: 1440px;
+@media (min-width: 1200px) {
+  .wrapper {
+    max-width: 1440px;
+  }
 }
 
- }
-
 /* Block about */
-

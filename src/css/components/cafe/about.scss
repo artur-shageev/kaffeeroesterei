@@ -1,0 +1,153 @@
+.cafe-about__wrapper {
+  background: white;
+}
+
+.cafe-about__main {
+  min-width: 327px;
+  margin: 0 24px;
+}
+.cafe-about__main:first-child {
+  margin-top: 60px;
+  min-height: 382px;
+}
+.cafe-about__main:last-child {
+  margin-top: 40px;
+  min-height: 340px;
+  margin-bottom: 60px;
+}
+.cafe-about__main--text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.cafe-about__main--img img {
+  object-fit: cover;
+  object-position: center;
+  width: 241px;
+  height: 154px;
+  margin-left: calc(100% - 241px);
+}
+
+.cafe-about__text--title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 34px;
+}
+
+.cafe-about__text--body {
+  font-size: 14px;
+  // line-height: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cafe-about__text--more {
+  display: none;
+}
+
+.cafe-about__text--footer {
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 21px;
+}
+
+.cafe-about__text--footer div:nth-child(2) {
+  padding-right: 10%;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+  .cafe-about__text {
+    &--title {
+      font-size: 48px;
+    }
+    &--body {
+      font-size: 18px;
+      margin: 35px 0;
+      margin-bottom: 0px;
+    }
+    &--more {
+      display: block;
+      font-size: 18px;
+      color: black;
+    }
+
+    &--footer {
+      font-size: 18px;
+    }
+    &--footer div:nth-child(2) {
+      padding-right: 0;
+    }
+  }
+
+  .cafe-about__main {
+    display: flex;
+    margin: 0 100px;
+
+    &:first-child {
+      margin-top: 124px;
+    }
+
+    &:last-child {
+      flex-direction: row-reverse;
+      margin-top: 133px;
+      margin-bottom: 125px;
+    }
+
+    &--img {
+      img {
+        position: unset;
+        // height: 0;
+        // width: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+      }
+      &-first {
+        img {
+          height: 391px;
+          width: 607px;
+        }
+      }
+      &-second {
+        img {
+          height: 406px;
+          width: 612px;
+        }
+      }
+    }
+
+    &:nth-child(1) &--text {
+      // .about__main .about__main--text{}
+      padding-right: 8%;
+    }
+
+    &:nth-child(2) &--text {
+      padding: 0px 6.5%;
+      padding-top: 50px;
+    }
+  }
+
+  .cafe-about__footer {
+    &--item {
+      margin-right: 16%;
+    }
+  }
+}
+@media (min-width: 1920px) {
+  // .header {
+  //   height: 681px;
+  //   max-width: 1440px;
+  // }
+}

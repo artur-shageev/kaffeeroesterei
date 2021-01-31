@@ -1,13 +1,24 @@
 <div class="container">
-<nav>
-    <a class="logo">
+  <nav>
+    <a class="logo" href="/">
       <img src="img/Logo.svg" alt="" />
     </a>
-    <a class="header__burger" href="#"><img src="img/Burger Menu.svg" alt="" /></a>
+    <div class="header__burger"><img src="img/Burger Menu.svg" alt="" /></div>
     <ul class="menu">
-      <li class="nav__menu--active"><a href="">das Café</a></li>
+      <li class="nav__menu--active"><a href="cafe.html">das Café</a></li>
       <li><a href="">Herkunft</a></li>
       <li><a href="">Shop</a></li>
     </ul>
-</nav>
+  </nav>
 </div>
+
+<div class="menu__wrapper none">
+  <div class="menu__close"></div>
+  <div class="menu__links">
+    <a href="cafe.html" class="menu__links--item">das Café</a>
+    <a href="#" class="menu__links--item">Herkunft</a>
+    <a class="menu__links--item">Shop</a>
+  </div>
+</div>
+
+<script src="js/header.js"></script>
