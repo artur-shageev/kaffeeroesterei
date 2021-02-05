@@ -1,0 +1,127 @@
+.kontakt {
+  background: white;
+  &-form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+
+    &__title {
+      margin-top: 133px;
+      margin-bottom: 34px;
+      font-weight: 900;
+      font-size: 36px;
+      line-height: 34px;
+    }
+    &__formular {
+      &-input {
+        margin-bottom: 40px;
+        & label,
+        input {
+          width: 100%;
+          font-size: 14px;
+          line-height: 18px;
+          color: #1a1a1a;
+        }
+
+        & label {
+          display: block;
+          margin-bottom: 5px;
+        }
+        & input {
+          border: 0;
+          border-bottom: 2px solid black;
+          padding: 10px 20px;
+          transition: 400ms all;
+        }
+        input:focus {
+          outline: none;
+          border: 1px;
+          background: rgba(233, 233, 233, 1);
+        }
+      }
+
+      &-selector {
+        width: 100%;
+        margin-bottom: 40px;
+      }
+
+      .formular-selector {
+        &__placeholder {
+          color: white;
+          min-height: 47px;
+          background-color: black;
+          border: 2px solid #1a1a1a;
+          box-sizing: border-box;
+          border-radius: 5px;
+          padding: 15px 25px;
+          position: relative;
+          z-index: 2;
+          &::before {
+            content: url(/img/selector.svg);
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            width: 47px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // background-color: chartreuse;
+          }
+        }
+        &__menu {
+          height: 0px;
+          margin-top: 4px;
+          border: 2px solid black;
+          border-radius: 5px;
+          padding: 5px 0;
+          overflow: hidden;
+          transform: translateY(-150%);
+          &-item {
+            height: 100%;
+            font-size: 14px;
+            line-height: 18px;
+            padding: 10px 25px;
+            &:hover {
+              background: #c4c4c4;
+            }
+          }
+          &-open{
+            transform: translateY(0);
+            height: 100%;
+            
+          }
+        }
+      }
+
+      &-checkbox {
+        display: flex;
+        margin-top: 41px;
+        font-size: 14px;
+        line-height: 18px;
+      }
+
+      &-button {
+        display: flex;
+        justify-content: center;
+        margin-top: 41px;
+        margin-bottom: 40px;
+        & .btn {
+          padding: 15px 50px;
+        }
+      }
+    }
+  }
+}
+
+// input {
+//   border: 0;
+//   border-bottom: 2px solid black;
+//   padding: 10px 20px;
+//   transition: 400ms all;
+// }
+// input:focus {
+//   outline: none;
+//   // border: 1px;
+//   background: rgba(233, 233, 233, 1);
+// }

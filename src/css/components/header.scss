@@ -129,3 +129,30 @@ nav li a {
     }
   }
 }
+
+.dark {
+  & nav {
+    & .logo {
+      & svg {
+        fill: black;
+      }
+    }
+    & .header__burger {
+      & svg {
+        & path {
+          stroke: black;
+        }
+      }
+    }
+    & .menu {
+      & li {
+        & a {
+          color: black;
+        }
+        &::before {
+          background-color: black;
+        }
+      }
+    }
+  }
+}

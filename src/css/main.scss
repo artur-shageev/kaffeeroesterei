@@ -2,6 +2,7 @@
 
 @import "variables";
 @import "base";
+@import "ui-kit";
 
 :root {
   --color-main: #357438;
@@ -21,8 +22,12 @@
 @import "./components/cafe/about.scss";
 @import "./components/cafe/gallery.scss";
 
+//kontakt
+
+@import "./components/kontakt/form.scss"; 
+
 // header
-@import "./components/header.scss";
+  @import "./components/header.scss";
 
 // footer
 
