@@ -1,5 +1,9 @@
-const header = document.querySelector('.container')
-header.classList.add('dark')
+// const header = document.querySelector('.container')
+// header.classList.add('dark')
+import {handlerHeader} from './utils/handler'
+
+handlerHeader()
+
 
 const selector = document.querySelector('.formular-selector__placeholder')
 const menu = document.querySelector('.formular-selector__menu')

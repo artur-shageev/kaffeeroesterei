@@ -1,0 +1,10 @@
+.shop-products {
+  padding: 102px 22px 0 22px;
+
+  &__group {
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: space-between;
+    // flex-direction: column;
+  }
+}
