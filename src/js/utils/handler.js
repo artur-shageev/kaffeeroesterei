@@ -6,7 +6,7 @@ export const handlerHeader = ()=>{
 }
 
 const handler = {
-    handlerHeader: handlerHeader
+    handlerHeader
 }
 
 export default handler

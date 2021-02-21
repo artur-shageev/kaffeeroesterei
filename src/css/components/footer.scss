@@ -1,4 +1,6 @@
 .footer {
+  display: flex;
+  flex-direction: column;
   background-color: #1a1a1a;
   padding: 60px 25px 50px 25px;
   color: #ffffff;
@@ -49,6 +51,27 @@
 }
 
 @media (min-width: 1200px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-around;
 
-  
+    &__logo {
+    }
+
+    &__contact {
+      flex-direction: column;
+    }
+
+    &__links {
+      flex-direction: row-reverse;
+
+      & :last-child {
+        padding-right: 100px;
+      }
+
+      & :first-child {
+        max-width: 80px;
+      }
+    }
+  }
 }
